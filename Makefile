@@ -1,5 +1,5 @@
 install:
-        cp      setup.bash      /etc/init.d/raspimouse
+        cp setup.bash /etc/init.d/raspimouse
         chmod +x /etc/init.d/raspimouse
         update-rc.d raspimouse defaults
 
